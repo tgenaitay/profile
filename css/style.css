@@ -69,11 +69,11 @@ a:hover {
 
 .light {
   color:fff;
+  font-size: 10px;
 }
 
 .light a {
   color:fff;
-  text-decoration: underline;
 }
 
 table{
@@ -141,6 +141,10 @@ li {
     font-weight: 500;
     color:white;
     transition: background 0.5s;
+}
+
+.action {
+  font-size:22px;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
