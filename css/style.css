@@ -1,6 +1,6 @@
 body {
   /*background-color: #F6F6F6;*/
-  background:linear-gradient(#F8D5D7, #F6F6F6);
+  background:linear-gradient(#FF5126, #F6F6F6);
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   color:  #7d7d7d;
@@ -65,6 +65,15 @@ a:hover {
   color:#D72323;
   text-decoration: none;
   transition: color 0.2s;
+}
+
+.light {
+  color:fff;
+}
+
+.light a {
+  color:fff;
+  text-decoration: underline;
 }
 
 table{
@@ -175,4 +184,8 @@ animation-delay: 0.8s;
 -webkit-animation-delay: 1s;
 -moz-animation-delay: 1s;
 animation-delay: 1s;
+}
+
+#image{
+  margin:100px 100px;
 }
