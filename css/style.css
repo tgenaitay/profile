@@ -17,7 +17,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  color:#FF5126;
+  color:#C14953;
   font-size:32px;
   font-weight: 700;
 }
@@ -29,52 +29,21 @@ h2 {
 
 h3 {
   color:#3A4750;
-  font-size:18px;
+  font-size:16px;
   font-weight: 700
 }
 
-.headline {
-  border-bottom: 1px solid #E0E0E0;
-  height:7px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-h3 .headline-content {
-    background-color: white;
-    position: relative;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 8px;
-}
-
 a {
-  color:#3A4750;
+  color:#848FA5;
   text-decoration: none;
 }
 
 a:hover {
-  color:#D72323;
+  color:#2D2D2A;
   text-decoration: none;
   transition: color 0.2s;
 }
 
-.light {
-  color:fff;
-  font-size: 10px;
-}
-
-.light a {
-  color:fff;
-}
 
 table{
   font-weight: 300;
@@ -111,16 +80,21 @@ table{
   border-radius: 50%;
 }
 
+.profile {
+  width: 150px;
+}
+
 .list-inline {
   padding-left:0px;
 }
+
+.list-inline .fa {
+  font-size:30px;
+}
+
 li {
   display: inline-block;
   padding: 0px 20px;
-}
-
-.fa {
-  font-size:30px;
 }
 
 .btn {
@@ -129,22 +103,18 @@ li {
 }
 
 .btn-red {
-    background-color: #FF5126;
+    background-color: #C14953;
     color: white;
     font-weight: 500;
     transition: background 0s;
 }
 
 .btn-red:hover {
-    background-color: #D72323;
+    background-color: #8E5F64;
     color: white;
     font-weight: 500;
     color:white;
     transition: background 0.5s;
-}
-
-.action {
-  font-size:22px;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -188,8 +158,4 @@ animation-delay: 0.8s;
 -webkit-animation-delay: 1s;
 -moz-animation-delay: 1s;
 animation-delay: 1s;
-}
-
-#image{
-  margin:100px 100px;
 }
